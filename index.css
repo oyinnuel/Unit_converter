@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    /* min-height: 100vh; */
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.hero {
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    padding: 33px 50.6px 30px 51px;
+}
+
+
+/* .focus-wrapper {
+    max-width: 110px;
+} */
+
+.focus {
+    font-size: 58px;
+    line-height: 24.39px;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    /* padding: 1px 1px; */
+    font-weight: 800;
+    margin: 0 auto;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    max-width: 117px;
+    text-align: center;
+}
+
+.focus::placeholder {
+    color: white;
+}
+
+.focus:focus {
+    outline: none;
+    background-color: #B295FF;
+}
+
+.focus:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.action {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 9px 32px;
+    margin: 26.77px auto 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    border: none;
+    cursor: pointer;
+}
+
+.action:focus {
+    background-color: #F4F4F4;
+    font-weight: 600;
+}
+
+.conversion-wrapper {
+    background: #F4F4F4;
+    margin: 0 auto;
+    padding: 15px 0px;
+    padding-top: 36px;
+}
+
+.conversion-items-wrapper {
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    max-width: 90%;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    padding: 27px 77px 12.57px 77px;
+    box-sizing: border-box;
+}
+
+.conversion-tite {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5A537B;
+    /* display: block; */
+    /* text-align: center;
+    justify-content: center;
+    margin: 0 auto; */
+}
+
+.conversion-details {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+}

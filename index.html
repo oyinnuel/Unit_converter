@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="utf-8">
+    <title>Unit converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="hero">
+            <h2 class="title">Metric/Imperial Unit Conversion</h2>
+            <!-- <div class="focus-wrapper"> -->
+            <input type="number" class="focus" placeholder="20" id="number">
+            <!-- </div> -->
+            <button class="action" id="convert">Convert</button>
+        </div>
+        <div class="conversion-wrapper">
+            <div class="conversion-items-wrapper">
+                <h3 class="conversion-tite">Length (Meter/Feet)</h3>
+                <p class="conversion-details"><span id="meter-a">20</span> meters = <span id="feet-a">65.616</span> feet | <span id="feet-b">20</span> feet = <span id="meter-b">6.096</span> meters</p>
+            </div>
+            <div class="conversion-items-wrapper">
+                <h3 class="conversion-tite">Volume (Liters/Gallons)</h3>
+                <p class="conversion-details"><span id="liter-a">20</span> liters = <span id="gallon-a">5.284</span> gallons | <span id="gallon-b">20</span> gallons = <span id="liter-b">75.708</span> liters</p>
+            </div>
+            <div class="conversion-items-wrapper">
+                <h3 class="conversion-tite">Mass (Kilograms/Pounds)</h3>
+                <p class="conversion-details"><span id="kilo-a">20</span> kilos = <span id="pound-a">44.092</span> pounds | <span id="pound-b">20</span> pounds = <span id="kilo-b">9.072</span> kilos</p>
+            </div>
+        </div>
+    </div>
+    <script src=" index.js "></script>
+</body>
+
+</html>
